@@ -57,7 +57,7 @@ def verdict(score):
 def fetch_matches(today_br, today_iso):
     log.info(f"Buscando jogos de {today_br}...")
     msg = client.messages.create(
-        model="claude-sonnet-4-20250514",
+        model="claude-sonnet-4-5-20250929",
         max_tokens=4000,
         tools=[{"type": "web_search_20250305", "name": "web_search"}],
         system="You are a football fixture and statistics analyst. Output ONLY a raw JSON array. No markdown, no backticks, no preamble, no explanation. Just the JSON array starting with [ and ending with ].",
