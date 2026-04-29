@@ -145,7 +145,7 @@ def format_telegram(matches, today_fmt):
 
     lines.append("━━━━━━━━━━━━")
     lines.append("📋 Stake: R$200 · Stop diário: R$200 · Máx 2 entradas/dia")
-    lines.append("🚫 Bloqueados: +/\\-0,5 e +/\\-4,5 gols")
+    lines.append("🚫 Bloqueados: \\+/\\-0,5 e \\+/\\-4,5 gols")
 
     return "\n".join(lines)
 
